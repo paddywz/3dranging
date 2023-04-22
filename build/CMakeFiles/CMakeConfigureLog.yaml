@@ -1,0 +1,383 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Applications/Scoop/apps/mingw-winlibs/12.2.0-16.0.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:8 (project)"
+    message: |
+      The system is: Windows - 6.2.9200 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Applications/Scoop/apps/mingw-winlibs/12.2.0-16.0.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Applications/Scoop/apps/mingw-winlibs/12.2.0-16.0.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Applications/Scoop/apps/mingw-winlibs/12.2.0-16.0.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:8 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: D:/Applications/Scoop/apps/llvm/current/bin/clang++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is Clang, found in:
+        F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/3.26.3/CompilerIdCXX/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Applications/Scoop/apps/mingw-winlibs/12.2.0-16.0.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:1153 (message)"
+      - "D:/Applications/Scoop/apps/mingw-winlibs/12.2.0-16.0.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "D:/Applications/Scoop/apps/mingw-winlibs/12.2.0-16.0.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:8 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Applications/Scoop/apps/mingw-winlibs/12.2.0-16.0.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:1153 (message)"
+      - "D:/Applications/Scoop/apps/mingw-winlibs/12.2.0-16.0.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "D:/Applications/Scoop/apps/mingw-winlibs/12.2.0-16.0.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:8 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Applications/Scoop/apps/mingw-winlibs/12.2.0-16.0.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/Applications/Scoop/apps/mingw-winlibs/12.2.0-16.0.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:8 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-c4dm4r"
+      binary: "F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-c4dm4r"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "D:/Applications/Scoop/apps/vcpkg/current"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-c4dm4r
+        
+        Run Build Command(s):D:/Applications/Scoop/apps/anaconda3/current/Library/bin/ninja.exe -v cmTC_c41b5 && [1/2] D:\\Applications\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe   -O0 -g -Xclang -gcodeview -std=c++14 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_c41b5.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_c41b5.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_c41b5.dir/CMakeCXXCompilerABI.cpp.obj -c D:/Applications/Scoop/apps/mingw-winlibs/12.2.0-16.0.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp
+        [2/2] cmd.exe /C "cd . && D:\\Applications\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_c41b5.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_c41b5.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_c41b5.lib -Xlinker /pdb:cmTC_c41b5.pdb -Xlinker /version:0.0     && cmd.exe /C "cd /D F:\\Processing\\000-Work\\010-School\\014-FinalYearProject\\code\\3d_ranging\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c4dm4r && D:\\Applications\\Scoop\\apps\\powershell\\current\\pwsh.exe -noprofile -executionpolicy Bypass -file D:/Applications/Scoop/apps/vcpkg/current/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-c4dm4r/cmTC_c41b5.exe -installedDir D:/Applications/Scoop/apps/vcpkg/current/installed/x64-windows/debug/bin -OutVariable out""
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Applications/Scoop/apps/mingw-winlibs/12.2.0-16.0.0-10.0.0-r5/share/cmake-3.26/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
+      - "D:/Applications/Scoop/apps/mingw-winlibs/12.2.0-16.0.0-10.0.0-r5/share/cmake-3.26/Modules/Internal/FeatureTesting.cmake:83 (_record_compiler_features)"
+      - "D:/Applications/Scoop/apps/mingw-winlibs/12.2.0-16.0.0-10.0.0-r5/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake:121 (_record_compiler_features_cxx)"
+      - "D:/Applications/Scoop/apps/mingw-winlibs/12.2.0-16.0.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeDetermineCompileFeatures.cmake:70 (cmake_record_cxx_compile_features)"
+      - "D:/Applications/Scoop/apps/mingw-winlibs/12.2.0-16.0.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:70 (CMAKE_DETERMINE_COMPILE_FEATURES)"
+      - "CMakeLists.txt:8 (project)"
+    checks:
+      - "Detecting CXX compile features"
+    directories:
+      source: "F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-yjh449"
+      binary: "F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-yjh449"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "D:/Applications/Scoop/apps/vcpkg/current"
+    buildResult:
+      variable: "CMAKE_CXX_FEATURE_TEST"
+      cached: true
+      stdout: |
+        Change Dir: F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-yjh449
+        
+        Run Build Command(s):D:/Applications/Scoop/apps/anaconda3/current/Library/bin/ninja.exe -v cmTC_47ea7 && [1/2] D:\\Applications\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe   -O0 -g -Xclang -gcodeview -std=c++14 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_47ea7.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_47ea7.dir\\feature_tests.cxx.obj.d -o CMakeFiles/cmTC_47ea7.dir/feature_tests.cxx.obj -c F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-yjh449/feature_tests.cxx
+        [2/2] cmd.exe /C "cd . && D:\\Applications\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_47ea7.dir/feature_tests.cxx.obj -o cmTC_47ea7.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_47ea7.lib -Xlinker /pdb:cmTC_47ea7.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cmd.exe /C "cd /D F:\\Processing\\000-Work\\010-School\\014-FinalYearProject\\code\\3d_ranging\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yjh449 && D:\\Applications\\Scoop\\apps\\powershell\\current\\pwsh.exe -noprofile -executionpolicy Bypass -file D:/Applications/Scoop/apps/vcpkg/current/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-yjh449/cmTC_47ea7.exe -installedDir D:/Applications/Scoop/apps/vcpkg/current/installed/x64-windows/debug/bin -OutVariable out""
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Applications/Scoop/apps/mingw-winlibs/12.2.0-16.0.0-10.0.0-r5/share/cmake-3.26/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
+      - "D:/Applications/Scoop/apps/mingw-winlibs/12.2.0-16.0.0-10.0.0-r5/share/cmake-3.26/Modules/Internal/FeatureTesting.cmake:83 (_record_compiler_features)"
+      - "D:/Applications/Scoop/apps/mingw-winlibs/12.2.0-16.0.0-10.0.0-r5/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake:129 (_record_compiler_features_cxx)"
+      - "D:/Applications/Scoop/apps/mingw-winlibs/12.2.0-16.0.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeDetermineCompileFeatures.cmake:70 (cmake_record_cxx_compile_features)"
+      - "D:/Applications/Scoop/apps/mingw-winlibs/12.2.0-16.0.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:70 (CMAKE_DETERMINE_COMPILE_FEATURES)"
+      - "CMakeLists.txt:8 (project)"
+    checks:
+      - "Detecting CXX compile features"
+    directories:
+      source: "F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-rpsnun"
+      binary: "F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-rpsnun"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "D:/Applications/Scoop/apps/vcpkg/current"
+    buildResult:
+      variable: "CMAKE_CXX_FEATURE_TEST"
+      cached: true
+      stdout: |
+        Change Dir: F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-rpsnun
+        
+        Run Build Command(s):D:/Applications/Scoop/apps/anaconda3/current/Library/bin/ninja.exe -v cmTC_298a5 && [1/2] D:\\Applications\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe   -O0 -g -Xclang -gcodeview -std=c++14 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_298a5.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_298a5.dir\\feature_tests.cxx.obj.d -o CMakeFiles/cmTC_298a5.dir/feature_tests.cxx.obj -c F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-rpsnun/feature_tests.cxx
+        [2/2] cmd.exe /C "cd . && D:\\Applications\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_298a5.dir/feature_tests.cxx.obj -o cmTC_298a5.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_298a5.lib -Xlinker /pdb:cmTC_298a5.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cmd.exe /C "cd /D F:\\Processing\\000-Work\\010-School\\014-FinalYearProject\\code\\3d_ranging\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rpsnun && D:\\Applications\\Scoop\\apps\\powershell\\current\\pwsh.exe -noprofile -executionpolicy Bypass -file D:/Applications/Scoop/apps/vcpkg/current/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-rpsnun/cmTC_298a5.exe -installedDir D:/Applications/Scoop/apps/vcpkg/current/installed/x64-windows/debug/bin -OutVariable out""
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Applications/Scoop/apps/mingw-winlibs/12.2.0-16.0.0-10.0.0-r5/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "D:/Applications/Scoop/apps/mingw-winlibs/12.2.0-16.0.0-10.0.0-r5/share/cmake-3.26/Modules/CheckCXXSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "D:/Applications/Scoop/apps/mingw-winlibs/12.2.0-16.0.0-10.0.0-r5/share/cmake-3.26/Modules/FindThreads.cmake:99 (CHECK_CXX_SOURCE_COMPILES)"
+      - "D:/Applications/Scoop/apps/mingw-winlibs/12.2.0-16.0.0-10.0.0-r5/share/cmake-3.26/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "D:/Applications/Scoop/apps/vcpkg/current/scripts/buildsystems/vcpkg.cmake:852 (_find_package)"
+      - "D:/Applications/Scoop/apps/mingw-winlibs/12.2.0-16.0.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "D:/Applications/Scoop/apps/vcpkg/current/installed/x64-windows/share/opencv/OpenCVModules.cmake:34 (find_dependency)"
+      - "D:/Applications/Scoop/apps/vcpkg/current/installed/x64-windows/share/opencv/OpenCVConfig.cmake:126 (include)"
+      - "D:/Applications/Scoop/apps/vcpkg/current/scripts/buildsystems/vcpkg.cmake:852 (_find_package)"
+      - "source/modules/bino_camera_calibrator/CMakeLists.txt:6 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-nmyuap"
+      binary: "F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-nmyuap"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "D:/Applications/Scoop/apps/vcpkg/current"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-nmyuap
+        
+        Run Build Command(s):D:/Applications/Scoop/apps/anaconda3/current/Library/bin/ninja.exe -v cmTC_7ce73 && [1/2] D:\\Applications\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe -DCMAKE_HAVE_LIBC_PTHREAD  -O0 -g -Xclang -gcodeview -std=c++14 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_7ce73.dir/src.cxx.obj -MF CMakeFiles\\cmTC_7ce73.dir\\src.cxx.obj.d -o CMakeFiles/cmTC_7ce73.dir/src.cxx.obj -c F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-nmyuap/src.cxx
+        FAILED: CMakeFiles/cmTC_7ce73.dir/src.cxx.obj 
+        D:\\Applications\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe -DCMAKE_HAVE_LIBC_PTHREAD  -O0 -g -Xclang -gcodeview -std=c++14 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_7ce73.dir/src.cxx.obj -MF CMakeFiles\\cmTC_7ce73.dir\\src.cxx.obj.d -o CMakeFiles/cmTC_7ce73.dir/src.cxx.obj -c F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-nmyuap/src.cxx
+        F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-nmyuap/src.cxx:1:10: fatal error: 'pthread.h' file not found
+        #include <pthread.h>
+                 ^~~~~~~~~~~
+        1 error generated.
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Applications/Scoop/apps/mingw-winlibs/12.2.0-16.0.0-10.0.0-r5/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "D:/Applications/Scoop/apps/mingw-winlibs/12.2.0-16.0.0-10.0.0-r5/share/cmake-3.26/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "D:/Applications/Scoop/apps/mingw-winlibs/12.2.0-16.0.0-10.0.0-r5/share/cmake-3.26/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "D:/Applications/Scoop/apps/vcpkg/current/scripts/buildsystems/vcpkg.cmake:852 (_find_package)"
+      - "D:/Applications/Scoop/apps/mingw-winlibs/12.2.0-16.0.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "D:/Applications/Scoop/apps/vcpkg/current/installed/x64-windows/share/opencv/OpenCVModules.cmake:34 (find_dependency)"
+      - "D:/Applications/Scoop/apps/vcpkg/current/installed/x64-windows/share/opencv/OpenCVConfig.cmake:126 (include)"
+      - "D:/Applications/Scoop/apps/vcpkg/current/scripts/buildsystems/vcpkg.cmake:852 (_find_package)"
+      - "source/modules/bino_camera_calibrator/CMakeLists.txt:6 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-qb3tlr"
+      binary: "F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-qb3tlr"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "D:/Applications/Scoop/apps/vcpkg/current"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-qb3tlr
+        
+        Run Build Command(s):D:/Applications/Scoop/apps/anaconda3/current/Library/bin/ninja.exe -v cmTC_23a34 && [1/2] D:\\Applications\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe   -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -std=c++14 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_23a34.dir/CheckFunctionExists.cxx.obj -MF CMakeFiles\\cmTC_23a34.dir\\CheckFunctionExists.cxx.obj.d -o CMakeFiles/cmTC_23a34.dir/CheckFunctionExists.cxx.obj -c F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-qb3tlr/CheckFunctionExists.cxx
+        [2/2] cmd.exe /C "cd . && D:\\Applications\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe -fuse-ld=lld-link -nostartfiles -nostdlib -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_23a34.dir/CheckFunctionExists.cxx.obj -o cmTC_23a34.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_23a34.lib -Xlinker /pdb:cmTC_23a34.pdb -Xlinker /version:0.0   -lpthreads.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cmd.exe /C "cd /D F:\\Processing\\000-Work\\010-School\\014-FinalYearProject\\code\\3d_ranging\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qb3tlr && D:\\Applications\\Scoop\\apps\\powershell\\current\\pwsh.exe -noprofile -executionpolicy Bypass -file D:/Applications/Scoop/apps/vcpkg/current/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-qb3tlr/cmTC_23a34.exe -installedDir D:/Applications/Scoop/apps/vcpkg/current/installed/x64-windows/debug/bin -OutVariable out""
+        FAILED: cmTC_23a34.exe 
+        cmd.exe /C "cd . && D:\\Applications\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe -fuse-ld=lld-link -nostartfiles -nostdlib -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_23a34.dir/CheckFunctionExists.cxx.obj -o cmTC_23a34.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_23a34.lib -Xlinker /pdb:cmTC_23a34.pdb -Xlinker /version:0.0   -lpthreads.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cmd.exe /C "cd /D F:\\Processing\\000-Work\\010-School\\014-FinalYearProject\\code\\3d_ranging\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qb3tlr && D:\\Applications\\Scoop\\apps\\powershell\\current\\pwsh.exe -noprofile -executionpolicy Bypass -file D:/Applications/Scoop/apps/vcpkg/current/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-qb3tlr/cmTC_23a34.exe -installedDir D:/Applications/Scoop/apps/vcpkg/current/installed/x64-windows/debug/bin -OutVariable out""
+        lld-link: error: could not open 'pthreads.lib': no such file or directory
+        clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Applications/Scoop/apps/mingw-winlibs/12.2.0-16.0.0-10.0.0-r5/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "D:/Applications/Scoop/apps/mingw-winlibs/12.2.0-16.0.0-10.0.0-r5/share/cmake-3.26/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "D:/Applications/Scoop/apps/mingw-winlibs/12.2.0-16.0.0-10.0.0-r5/share/cmake-3.26/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "D:/Applications/Scoop/apps/vcpkg/current/scripts/buildsystems/vcpkg.cmake:852 (_find_package)"
+      - "D:/Applications/Scoop/apps/mingw-winlibs/12.2.0-16.0.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "D:/Applications/Scoop/apps/vcpkg/current/installed/x64-windows/share/opencv/OpenCVModules.cmake:34 (find_dependency)"
+      - "D:/Applications/Scoop/apps/vcpkg/current/installed/x64-windows/share/opencv/OpenCVConfig.cmake:126 (include)"
+      - "D:/Applications/Scoop/apps/vcpkg/current/scripts/buildsystems/vcpkg.cmake:852 (_find_package)"
+      - "source/modules/bino_camera_calibrator/CMakeLists.txt:6 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-4kki8l"
+      binary: "F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-4kki8l"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "D:/Applications/Scoop/apps/vcpkg/current"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-4kki8l
+        
+        Run Build Command(s):D:/Applications/Scoop/apps/anaconda3/current/Library/bin/ninja.exe -v cmTC_0cb32 && [1/2] D:\\Applications\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe   -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -std=c++14 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_0cb32.dir/CheckFunctionExists.cxx.obj -MF CMakeFiles\\cmTC_0cb32.dir\\CheckFunctionExists.cxx.obj.d -o CMakeFiles/cmTC_0cb32.dir/CheckFunctionExists.cxx.obj -c F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-4kki8l/CheckFunctionExists.cxx
+        [2/2] cmd.exe /C "cd . && D:\\Applications\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe -fuse-ld=lld-link -nostartfiles -nostdlib -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_0cb32.dir/CheckFunctionExists.cxx.obj -o cmTC_0cb32.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_0cb32.lib -Xlinker /pdb:cmTC_0cb32.pdb -Xlinker /version:0.0   -lpthread.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cmd.exe /C "cd /D F:\\Processing\\000-Work\\010-School\\014-FinalYearProject\\code\\3d_ranging\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4kki8l && D:\\Applications\\Scoop\\apps\\powershell\\current\\pwsh.exe -noprofile -executionpolicy Bypass -file D:/Applications/Scoop/apps/vcpkg/current/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-4kki8l/cmTC_0cb32.exe -installedDir D:/Applications/Scoop/apps/vcpkg/current/installed/x64-windows/debug/bin -OutVariable out""
+        FAILED: cmTC_0cb32.exe 
+        cmd.exe /C "cd . && D:\\Applications\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe -fuse-ld=lld-link -nostartfiles -nostdlib -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_0cb32.dir/CheckFunctionExists.cxx.obj -o cmTC_0cb32.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_0cb32.lib -Xlinker /pdb:cmTC_0cb32.pdb -Xlinker /version:0.0   -lpthread.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cmd.exe /C "cd /D F:\\Processing\\000-Work\\010-School\\014-FinalYearProject\\code\\3d_ranging\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4kki8l && D:\\Applications\\Scoop\\apps\\powershell\\current\\pwsh.exe -noprofile -executionpolicy Bypass -file D:/Applications/Scoop/apps/vcpkg/current/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-4kki8l/cmTC_0cb32.exe -installedDir D:/Applications/Scoop/apps/vcpkg/current/installed/x64-windows/debug/bin -OutVariable out""
+        lld-link: error: could not open 'pthread.lib': no such file or directory
+        clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Applications/Scoop/apps/mingw-winlibs/12.2.0-16.0.0-10.0.0-r5/share/cmake-3.26/Modules/FindThreads.cmake:136 (try_compile)"
+      - "D:/Applications/Scoop/apps/mingw-winlibs/12.2.0-16.0.0-10.0.0-r5/share/cmake-3.26/Modules/FindThreads.cmake:179 (_threads_check_flag_pthread)"
+      - "D:/Applications/Scoop/apps/vcpkg/current/scripts/buildsystems/vcpkg.cmake:852 (_find_package)"
+      - "D:/Applications/Scoop/apps/mingw-winlibs/12.2.0-16.0.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "D:/Applications/Scoop/apps/vcpkg/current/installed/x64-windows/share/opencv/OpenCVModules.cmake:34 (find_dependency)"
+      - "D:/Applications/Scoop/apps/vcpkg/current/installed/x64-windows/share/opencv/OpenCVConfig.cmake:126 (include)"
+      - "D:/Applications/Scoop/apps/vcpkg/current/scripts/buildsystems/vcpkg.cmake:852 (_find_package)"
+      - "source/modules/bino_camera_calibrator/CMakeLists.txt:6 (find_package)"
+    checks:
+      - "Check if compiler accepts -pthread"
+    directories:
+      source: "F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-0mf0k2"
+      binary: "F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-0mf0k2"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "D:/Applications/Scoop/apps/vcpkg/current"
+    buildResult:
+      variable: "THREADS_HAVE_PTHREAD_ARG"
+      cached: true
+      stdout: |
+        Change Dir: F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-0mf0k2
+        
+        Run Build Command(s):D:/Applications/Scoop/apps/anaconda3/current/Library/bin/ninja.exe -v cmTC_b6e92 && [1/2] D:\\Applications\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe   -O0 -g -Xclang -gcodeview -std=c++14 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_b6e92.dir/CheckForPthreads.cxx.obj -MF CMakeFiles\\cmTC_b6e92.dir\\CheckForPthreads.cxx.obj.d -o CMakeFiles/cmTC_b6e92.dir/CheckForPthreads.cxx.obj -c F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-0mf0k2/CheckForPthreads.cxx
+        FAILED: CMakeFiles/cmTC_b6e92.dir/CheckForPthreads.cxx.obj 
+        D:\\Applications\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe   -O0 -g -Xclang -gcodeview -std=c++14 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_b6e92.dir/CheckForPthreads.cxx.obj -MF CMakeFiles\\cmTC_b6e92.dir\\CheckForPthreads.cxx.obj.d -o CMakeFiles/cmTC_b6e92.dir/CheckForPthreads.cxx.obj -c F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-0mf0k2/CheckForPthreads.cxx
+        F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-0mf0k2/CheckForPthreads.cxx:1:10: fatal error: 'pthread.h' file not found
+        #include <pthread.h>
+                 ^~~~~~~~~~~
+        1 error generated.
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Applications/Scoop/apps/mingw-winlibs/12.2.0-16.0.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Applications/Scoop/apps/mingw-winlibs/12.2.0-16.0.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Applications/Scoop/apps/mingw-winlibs/12.2.0-16.0.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "D:/Applications/Scoop/apps/vcpkg/current/installed/x64-windows/share/opencv/OpenCVModules.cmake:37 (enable_language)"
+      - "D:/Applications/Scoop/apps/vcpkg/current/installed/x64-windows/share/opencv/OpenCVConfig.cmake:126 (include)"
+      - "D:/Applications/Scoop/apps/vcpkg/current/scripts/buildsystems/vcpkg.cmake:852 (_find_package)"
+      - "source/modules/bino_camera_calibrator/CMakeLists.txt:6 (find_package)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: D:/Applications/Scoop/apps/llvm/current/bin/clang.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is Clang, found in:
+        F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/3.26.3/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Applications/Scoop/apps/mingw-winlibs/12.2.0-16.0.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:1153 (message)"
+      - "D:/Applications/Scoop/apps/mingw-winlibs/12.2.0-16.0.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "D:/Applications/Scoop/apps/mingw-winlibs/12.2.0-16.0.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "D:/Applications/Scoop/apps/vcpkg/current/installed/x64-windows/share/opencv/OpenCVModules.cmake:37 (enable_language)"
+      - "D:/Applications/Scoop/apps/vcpkg/current/installed/x64-windows/share/opencv/OpenCVConfig.cmake:126 (include)"
+      - "D:/Applications/Scoop/apps/vcpkg/current/scripts/buildsystems/vcpkg.cmake:852 (_find_package)"
+      - "source/modules/bino_camera_calibrator/CMakeLists.txt:6 (find_package)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Applications/Scoop/apps/mingw-winlibs/12.2.0-16.0.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:1153 (message)"
+      - "D:/Applications/Scoop/apps/mingw-winlibs/12.2.0-16.0.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "D:/Applications/Scoop/apps/mingw-winlibs/12.2.0-16.0.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "D:/Applications/Scoop/apps/vcpkg/current/installed/x64-windows/share/opencv/OpenCVModules.cmake:37 (enable_language)"
+      - "D:/Applications/Scoop/apps/vcpkg/current/installed/x64-windows/share/opencv/OpenCVConfig.cmake:126 (include)"
+      - "D:/Applications/Scoop/apps/vcpkg/current/scripts/buildsystems/vcpkg.cmake:852 (_find_package)"
+      - "source/modules/bino_camera_calibrator/CMakeLists.txt:6 (find_package)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Applications/Scoop/apps/mingw-winlibs/12.2.0-16.0.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/Applications/Scoop/apps/mingw-winlibs/12.2.0-16.0.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "D:/Applications/Scoop/apps/vcpkg/current/installed/x64-windows/share/opencv/OpenCVModules.cmake:37 (enable_language)"
+      - "D:/Applications/Scoop/apps/vcpkg/current/installed/x64-windows/share/opencv/OpenCVConfig.cmake:126 (include)"
+      - "D:/Applications/Scoop/apps/vcpkg/current/scripts/buildsystems/vcpkg.cmake:852 (_find_package)"
+      - "source/modules/bino_camera_calibrator/CMakeLists.txt:6 (find_package)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-kqmx15"
+      binary: "F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-kqmx15"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "D:/Applications/Scoop/apps/vcpkg/current"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-kqmx15
+        
+        Run Build Command(s):D:/Applications/Scoop/apps/anaconda3/current/Library/bin/ninja.exe -v cmTC_7522f && [1/2] D:\\Applications\\Scoop\\apps\\llvm\\current\\bin\\clang.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_7522f.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_7522f.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_7522f.dir/CMakeCCompilerABI.c.obj -c D:/Applications/Scoop/apps/mingw-winlibs/12.2.0-16.0.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeCCompilerABI.c
+        [2/2] cmd.exe /C "cd . && D:\\Applications\\Scoop\\apps\\llvm\\current\\bin\\clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_7522f.dir/CMakeCCompilerABI.c.obj -o cmTC_7522f.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_7522f.lib -Xlinker /pdb:cmTC_7522f.pdb -Xlinker /version:0.0     && cmd.exe /C "cd /D F:\\Processing\\000-Work\\010-School\\014-FinalYearProject\\code\\3d_ranging\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kqmx15 && D:\\Applications\\Scoop\\apps\\powershell\\current\\pwsh.exe -noprofile -executionpolicy Bypass -file D:/Applications/Scoop/apps/vcpkg/current/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-kqmx15/cmTC_7522f.exe -installedDir D:/Applications/Scoop/apps/vcpkg/current/installed/x64-windows/debug/bin -OutVariable out""
+        
+      exitCode: 0
+...
