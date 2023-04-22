@@ -59,8 +59,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-c4dm4r"
-      binary: "F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-c4dm4r"
+      source: "F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-2z4iuz"
+      binary: "F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-2z4iuz"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview"
@@ -72,10 +72,10 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-c4dm4r
+        Change Dir: F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-2z4iuz
         
-        Run Build Command(s):D:/Applications/Scoop/apps/anaconda3/current/Library/bin/ninja.exe -v cmTC_c41b5 && [1/2] D:\\Applications\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe   -O0 -g -Xclang -gcodeview -std=c++14 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_c41b5.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_c41b5.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_c41b5.dir/CMakeCXXCompilerABI.cpp.obj -c D:/Applications/Scoop/apps/mingw-winlibs/12.2.0-16.0.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp
-        [2/2] cmd.exe /C "cd . && D:\\Applications\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_c41b5.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_c41b5.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_c41b5.lib -Xlinker /pdb:cmTC_c41b5.pdb -Xlinker /version:0.0     && cmd.exe /C "cd /D F:\\Processing\\000-Work\\010-School\\014-FinalYearProject\\code\\3d_ranging\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c4dm4r && D:\\Applications\\Scoop\\apps\\powershell\\current\\pwsh.exe -noprofile -executionpolicy Bypass -file D:/Applications/Scoop/apps/vcpkg/current/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-c4dm4r/cmTC_c41b5.exe -installedDir D:/Applications/Scoop/apps/vcpkg/current/installed/x64-windows/debug/bin -OutVariable out""
+        Run Build Command(s):D:/Applications/Scoop/apps/anaconda3/current/Library/bin/ninja.exe -v cmTC_25c3f && [1/2] D:\\Applications\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe   -O0 -g -Xclang -gcodeview -std=c++14 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_25c3f.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_25c3f.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_25c3f.dir/CMakeCXXCompilerABI.cpp.obj -c D:/Applications/Scoop/apps/mingw-winlibs/12.2.0-16.0.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp
+        [2/2] cmd.exe /C "cd . && D:\\Applications\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_25c3f.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_25c3f.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_25c3f.lib -Xlinker /pdb:cmTC_25c3f.pdb -Xlinker /version:0.0     && cmd.exe /C "cd /D F:\\Processing\\000-Work\\010-School\\014-FinalYearProject\\code\\3d_ranging\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2z4iuz && D:\\Applications\\Scoop\\apps\\powershell\\current\\pwsh.exe -noprofile -executionpolicy Bypass -file D:/Applications/Scoop/apps/vcpkg/current/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-2z4iuz/cmTC_25c3f.exe -installedDir D:/Applications/Scoop/apps/vcpkg/current/installed/x64-windows/debug/bin -OutVariable out""
         
       exitCode: 0
   -
@@ -90,8 +90,8 @@ events:
     checks:
       - "Detecting CXX compile features"
     directories:
-      source: "F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-yjh449"
-      binary: "F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-yjh449"
+      source: "F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-8dwh5k"
+      binary: "F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-8dwh5k"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview"
@@ -103,10 +103,10 @@ events:
       variable: "CMAKE_CXX_FEATURE_TEST"
       cached: true
       stdout: |
-        Change Dir: F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-yjh449
+        Change Dir: F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-8dwh5k
         
-        Run Build Command(s):D:/Applications/Scoop/apps/anaconda3/current/Library/bin/ninja.exe -v cmTC_47ea7 && [1/2] D:\\Applications\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe   -O0 -g -Xclang -gcodeview -std=c++14 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_47ea7.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_47ea7.dir\\feature_tests.cxx.obj.d -o CMakeFiles/cmTC_47ea7.dir/feature_tests.cxx.obj -c F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-yjh449/feature_tests.cxx
-        [2/2] cmd.exe /C "cd . && D:\\Applications\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_47ea7.dir/feature_tests.cxx.obj -o cmTC_47ea7.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_47ea7.lib -Xlinker /pdb:cmTC_47ea7.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cmd.exe /C "cd /D F:\\Processing\\000-Work\\010-School\\014-FinalYearProject\\code\\3d_ranging\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yjh449 && D:\\Applications\\Scoop\\apps\\powershell\\current\\pwsh.exe -noprofile -executionpolicy Bypass -file D:/Applications/Scoop/apps/vcpkg/current/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-yjh449/cmTC_47ea7.exe -installedDir D:/Applications/Scoop/apps/vcpkg/current/installed/x64-windows/debug/bin -OutVariable out""
+        Run Build Command(s):D:/Applications/Scoop/apps/anaconda3/current/Library/bin/ninja.exe -v cmTC_f091b && [1/2] D:\\Applications\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe   -O0 -g -Xclang -gcodeview -std=c++14 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_f091b.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_f091b.dir\\feature_tests.cxx.obj.d -o CMakeFiles/cmTC_f091b.dir/feature_tests.cxx.obj -c F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-8dwh5k/feature_tests.cxx
+        [2/2] cmd.exe /C "cd . && D:\\Applications\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_f091b.dir/feature_tests.cxx.obj -o cmTC_f091b.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_f091b.lib -Xlinker /pdb:cmTC_f091b.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cmd.exe /C "cd /D F:\\Processing\\000-Work\\010-School\\014-FinalYearProject\\code\\3d_ranging\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8dwh5k && D:\\Applications\\Scoop\\apps\\powershell\\current\\pwsh.exe -noprofile -executionpolicy Bypass -file D:/Applications/Scoop/apps/vcpkg/current/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-8dwh5k/cmTC_f091b.exe -installedDir D:/Applications/Scoop/apps/vcpkg/current/installed/x64-windows/debug/bin -OutVariable out""
         
       exitCode: 0
   -
@@ -121,8 +121,8 @@ events:
     checks:
       - "Detecting CXX compile features"
     directories:
-      source: "F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-rpsnun"
-      binary: "F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-rpsnun"
+      source: "F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-9ai8fv"
+      binary: "F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-9ai8fv"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview"
@@ -134,10 +134,10 @@ events:
       variable: "CMAKE_CXX_FEATURE_TEST"
       cached: true
       stdout: |
-        Change Dir: F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-rpsnun
+        Change Dir: F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-9ai8fv
         
-        Run Build Command(s):D:/Applications/Scoop/apps/anaconda3/current/Library/bin/ninja.exe -v cmTC_298a5 && [1/2] D:\\Applications\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe   -O0 -g -Xclang -gcodeview -std=c++14 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_298a5.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_298a5.dir\\feature_tests.cxx.obj.d -o CMakeFiles/cmTC_298a5.dir/feature_tests.cxx.obj -c F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-rpsnun/feature_tests.cxx
-        [2/2] cmd.exe /C "cd . && D:\\Applications\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_298a5.dir/feature_tests.cxx.obj -o cmTC_298a5.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_298a5.lib -Xlinker /pdb:cmTC_298a5.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cmd.exe /C "cd /D F:\\Processing\\000-Work\\010-School\\014-FinalYearProject\\code\\3d_ranging\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rpsnun && D:\\Applications\\Scoop\\apps\\powershell\\current\\pwsh.exe -noprofile -executionpolicy Bypass -file D:/Applications/Scoop/apps/vcpkg/current/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-rpsnun/cmTC_298a5.exe -installedDir D:/Applications/Scoop/apps/vcpkg/current/installed/x64-windows/debug/bin -OutVariable out""
+        Run Build Command(s):D:/Applications/Scoop/apps/anaconda3/current/Library/bin/ninja.exe -v cmTC_06662 && [1/2] D:\\Applications\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe   -O0 -g -Xclang -gcodeview -std=c++14 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_06662.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_06662.dir\\feature_tests.cxx.obj.d -o CMakeFiles/cmTC_06662.dir/feature_tests.cxx.obj -c F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-9ai8fv/feature_tests.cxx
+        [2/2] cmd.exe /C "cd . && D:\\Applications\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_06662.dir/feature_tests.cxx.obj -o cmTC_06662.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_06662.lib -Xlinker /pdb:cmTC_06662.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cmd.exe /C "cd /D F:\\Processing\\000-Work\\010-School\\014-FinalYearProject\\code\\3d_ranging\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9ai8fv && D:\\Applications\\Scoop\\apps\\powershell\\current\\pwsh.exe -noprofile -executionpolicy Bypass -file D:/Applications/Scoop/apps/vcpkg/current/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-9ai8fv/cmTC_06662.exe -installedDir D:/Applications/Scoop/apps/vcpkg/current/installed/x64-windows/debug/bin -OutVariable out""
         
       exitCode: 0
   -
@@ -156,8 +156,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-nmyuap"
-      binary: "F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-nmyuap"
+      source: "F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-jgtvz8"
+      binary: "F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-jgtvz8"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview"
@@ -169,12 +169,12 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-nmyuap
+        Change Dir: F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-jgtvz8
         
-        Run Build Command(s):D:/Applications/Scoop/apps/anaconda3/current/Library/bin/ninja.exe -v cmTC_7ce73 && [1/2] D:\\Applications\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe -DCMAKE_HAVE_LIBC_PTHREAD  -O0 -g -Xclang -gcodeview -std=c++14 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_7ce73.dir/src.cxx.obj -MF CMakeFiles\\cmTC_7ce73.dir\\src.cxx.obj.d -o CMakeFiles/cmTC_7ce73.dir/src.cxx.obj -c F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-nmyuap/src.cxx
-        FAILED: CMakeFiles/cmTC_7ce73.dir/src.cxx.obj 
-        D:\\Applications\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe -DCMAKE_HAVE_LIBC_PTHREAD  -O0 -g -Xclang -gcodeview -std=c++14 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_7ce73.dir/src.cxx.obj -MF CMakeFiles\\cmTC_7ce73.dir\\src.cxx.obj.d -o CMakeFiles/cmTC_7ce73.dir/src.cxx.obj -c F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-nmyuap/src.cxx
-        F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-nmyuap/src.cxx:1:10: fatal error: 'pthread.h' file not found
+        Run Build Command(s):D:/Applications/Scoop/apps/anaconda3/current/Library/bin/ninja.exe -v cmTC_f964a && [1/2] D:\\Applications\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe -DCMAKE_HAVE_LIBC_PTHREAD  -O0 -g -Xclang -gcodeview -std=c++14 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_f964a.dir/src.cxx.obj -MF CMakeFiles\\cmTC_f964a.dir\\src.cxx.obj.d -o CMakeFiles/cmTC_f964a.dir/src.cxx.obj -c F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-jgtvz8/src.cxx
+        FAILED: CMakeFiles/cmTC_f964a.dir/src.cxx.obj 
+        D:\\Applications\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe -DCMAKE_HAVE_LIBC_PTHREAD  -O0 -g -Xclang -gcodeview -std=c++14 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_f964a.dir/src.cxx.obj -MF CMakeFiles\\cmTC_f964a.dir\\src.cxx.obj.d -o CMakeFiles/cmTC_f964a.dir/src.cxx.obj -c F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-jgtvz8/src.cxx
+        F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-jgtvz8/src.cxx:1:10: fatal error: 'pthread.h' file not found
         #include <pthread.h>
                  ^~~~~~~~~~~
         1 error generated.
@@ -196,8 +196,8 @@ events:
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-qb3tlr"
-      binary: "F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-qb3tlr"
+      source: "F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-h5zlek"
+      binary: "F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-h5zlek"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview"
@@ -209,12 +209,12 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-qb3tlr
+        Change Dir: F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-h5zlek
         
-        Run Build Command(s):D:/Applications/Scoop/apps/anaconda3/current/Library/bin/ninja.exe -v cmTC_23a34 && [1/2] D:\\Applications\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe   -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -std=c++14 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_23a34.dir/CheckFunctionExists.cxx.obj -MF CMakeFiles\\cmTC_23a34.dir\\CheckFunctionExists.cxx.obj.d -o CMakeFiles/cmTC_23a34.dir/CheckFunctionExists.cxx.obj -c F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-qb3tlr/CheckFunctionExists.cxx
-        [2/2] cmd.exe /C "cd . && D:\\Applications\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe -fuse-ld=lld-link -nostartfiles -nostdlib -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_23a34.dir/CheckFunctionExists.cxx.obj -o cmTC_23a34.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_23a34.lib -Xlinker /pdb:cmTC_23a34.pdb -Xlinker /version:0.0   -lpthreads.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cmd.exe /C "cd /D F:\\Processing\\000-Work\\010-School\\014-FinalYearProject\\code\\3d_ranging\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qb3tlr && D:\\Applications\\Scoop\\apps\\powershell\\current\\pwsh.exe -noprofile -executionpolicy Bypass -file D:/Applications/Scoop/apps/vcpkg/current/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-qb3tlr/cmTC_23a34.exe -installedDir D:/Applications/Scoop/apps/vcpkg/current/installed/x64-windows/debug/bin -OutVariable out""
-        FAILED: cmTC_23a34.exe 
-        cmd.exe /C "cd . && D:\\Applications\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe -fuse-ld=lld-link -nostartfiles -nostdlib -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_23a34.dir/CheckFunctionExists.cxx.obj -o cmTC_23a34.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_23a34.lib -Xlinker /pdb:cmTC_23a34.pdb -Xlinker /version:0.0   -lpthreads.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cmd.exe /C "cd /D F:\\Processing\\000-Work\\010-School\\014-FinalYearProject\\code\\3d_ranging\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qb3tlr && D:\\Applications\\Scoop\\apps\\powershell\\current\\pwsh.exe -noprofile -executionpolicy Bypass -file D:/Applications/Scoop/apps/vcpkg/current/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-qb3tlr/cmTC_23a34.exe -installedDir D:/Applications/Scoop/apps/vcpkg/current/installed/x64-windows/debug/bin -OutVariable out""
+        Run Build Command(s):D:/Applications/Scoop/apps/anaconda3/current/Library/bin/ninja.exe -v cmTC_7cf2a && [1/2] D:\\Applications\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe   -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -std=c++14 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_7cf2a.dir/CheckFunctionExists.cxx.obj -MF CMakeFiles\\cmTC_7cf2a.dir\\CheckFunctionExists.cxx.obj.d -o CMakeFiles/cmTC_7cf2a.dir/CheckFunctionExists.cxx.obj -c F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-h5zlek/CheckFunctionExists.cxx
+        [2/2] cmd.exe /C "cd . && D:\\Applications\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe -fuse-ld=lld-link -nostartfiles -nostdlib -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_7cf2a.dir/CheckFunctionExists.cxx.obj -o cmTC_7cf2a.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_7cf2a.lib -Xlinker /pdb:cmTC_7cf2a.pdb -Xlinker /version:0.0   -lpthreads.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cmd.exe /C "cd /D F:\\Processing\\000-Work\\010-School\\014-FinalYearProject\\code\\3d_ranging\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h5zlek && D:\\Applications\\Scoop\\apps\\powershell\\current\\pwsh.exe -noprofile -executionpolicy Bypass -file D:/Applications/Scoop/apps/vcpkg/current/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-h5zlek/cmTC_7cf2a.exe -installedDir D:/Applications/Scoop/apps/vcpkg/current/installed/x64-windows/debug/bin -OutVariable out""
+        FAILED: cmTC_7cf2a.exe 
+        cmd.exe /C "cd . && D:\\Applications\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe -fuse-ld=lld-link -nostartfiles -nostdlib -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_7cf2a.dir/CheckFunctionExists.cxx.obj -o cmTC_7cf2a.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_7cf2a.lib -Xlinker /pdb:cmTC_7cf2a.pdb -Xlinker /version:0.0   -lpthreads.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cmd.exe /C "cd /D F:\\Processing\\000-Work\\010-School\\014-FinalYearProject\\code\\3d_ranging\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h5zlek && D:\\Applications\\Scoop\\apps\\powershell\\current\\pwsh.exe -noprofile -executionpolicy Bypass -file D:/Applications/Scoop/apps/vcpkg/current/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-h5zlek/cmTC_7cf2a.exe -installedDir D:/Applications/Scoop/apps/vcpkg/current/installed/x64-windows/debug/bin -OutVariable out""
         lld-link: error: could not open 'pthreads.lib': no such file or directory
         clang++: error: linker command failed with exit code 1 (use -v to see invocation)
         ninja: build stopped: subcommand failed.
@@ -235,8 +235,8 @@ events:
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-4kki8l"
-      binary: "F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-4kki8l"
+      source: "F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-l0ck3s"
+      binary: "F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-l0ck3s"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview"
@@ -248,12 +248,12 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-4kki8l
+        Change Dir: F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-l0ck3s
         
-        Run Build Command(s):D:/Applications/Scoop/apps/anaconda3/current/Library/bin/ninja.exe -v cmTC_0cb32 && [1/2] D:\\Applications\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe   -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -std=c++14 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_0cb32.dir/CheckFunctionExists.cxx.obj -MF CMakeFiles\\cmTC_0cb32.dir\\CheckFunctionExists.cxx.obj.d -o CMakeFiles/cmTC_0cb32.dir/CheckFunctionExists.cxx.obj -c F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-4kki8l/CheckFunctionExists.cxx
-        [2/2] cmd.exe /C "cd . && D:\\Applications\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe -fuse-ld=lld-link -nostartfiles -nostdlib -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_0cb32.dir/CheckFunctionExists.cxx.obj -o cmTC_0cb32.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_0cb32.lib -Xlinker /pdb:cmTC_0cb32.pdb -Xlinker /version:0.0   -lpthread.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cmd.exe /C "cd /D F:\\Processing\\000-Work\\010-School\\014-FinalYearProject\\code\\3d_ranging\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4kki8l && D:\\Applications\\Scoop\\apps\\powershell\\current\\pwsh.exe -noprofile -executionpolicy Bypass -file D:/Applications/Scoop/apps/vcpkg/current/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-4kki8l/cmTC_0cb32.exe -installedDir D:/Applications/Scoop/apps/vcpkg/current/installed/x64-windows/debug/bin -OutVariable out""
-        FAILED: cmTC_0cb32.exe 
-        cmd.exe /C "cd . && D:\\Applications\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe -fuse-ld=lld-link -nostartfiles -nostdlib -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_0cb32.dir/CheckFunctionExists.cxx.obj -o cmTC_0cb32.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_0cb32.lib -Xlinker /pdb:cmTC_0cb32.pdb -Xlinker /version:0.0   -lpthread.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cmd.exe /C "cd /D F:\\Processing\\000-Work\\010-School\\014-FinalYearProject\\code\\3d_ranging\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4kki8l && D:\\Applications\\Scoop\\apps\\powershell\\current\\pwsh.exe -noprofile -executionpolicy Bypass -file D:/Applications/Scoop/apps/vcpkg/current/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-4kki8l/cmTC_0cb32.exe -installedDir D:/Applications/Scoop/apps/vcpkg/current/installed/x64-windows/debug/bin -OutVariable out""
+        Run Build Command(s):D:/Applications/Scoop/apps/anaconda3/current/Library/bin/ninja.exe -v cmTC_173a9 && [1/2] D:\\Applications\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe   -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -std=c++14 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_173a9.dir/CheckFunctionExists.cxx.obj -MF CMakeFiles\\cmTC_173a9.dir\\CheckFunctionExists.cxx.obj.d -o CMakeFiles/cmTC_173a9.dir/CheckFunctionExists.cxx.obj -c F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-l0ck3s/CheckFunctionExists.cxx
+        [2/2] cmd.exe /C "cd . && D:\\Applications\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe -fuse-ld=lld-link -nostartfiles -nostdlib -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_173a9.dir/CheckFunctionExists.cxx.obj -o cmTC_173a9.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_173a9.lib -Xlinker /pdb:cmTC_173a9.pdb -Xlinker /version:0.0   -lpthread.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cmd.exe /C "cd /D F:\\Processing\\000-Work\\010-School\\014-FinalYearProject\\code\\3d_ranging\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l0ck3s && D:\\Applications\\Scoop\\apps\\powershell\\current\\pwsh.exe -noprofile -executionpolicy Bypass -file D:/Applications/Scoop/apps/vcpkg/current/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-l0ck3s/cmTC_173a9.exe -installedDir D:/Applications/Scoop/apps/vcpkg/current/installed/x64-windows/debug/bin -OutVariable out""
+        FAILED: cmTC_173a9.exe 
+        cmd.exe /C "cd . && D:\\Applications\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe -fuse-ld=lld-link -nostartfiles -nostdlib -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_173a9.dir/CheckFunctionExists.cxx.obj -o cmTC_173a9.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_173a9.lib -Xlinker /pdb:cmTC_173a9.pdb -Xlinker /version:0.0   -lpthread.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cmd.exe /C "cd /D F:\\Processing\\000-Work\\010-School\\014-FinalYearProject\\code\\3d_ranging\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l0ck3s && D:\\Applications\\Scoop\\apps\\powershell\\current\\pwsh.exe -noprofile -executionpolicy Bypass -file D:/Applications/Scoop/apps/vcpkg/current/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-l0ck3s/cmTC_173a9.exe -installedDir D:/Applications/Scoop/apps/vcpkg/current/installed/x64-windows/debug/bin -OutVariable out""
         lld-link: error: could not open 'pthread.lib': no such file or directory
         clang++: error: linker command failed with exit code 1 (use -v to see invocation)
         ninja: build stopped: subcommand failed.
@@ -273,8 +273,8 @@ events:
     checks:
       - "Check if compiler accepts -pthread"
     directories:
-      source: "F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-0mf0k2"
-      binary: "F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-0mf0k2"
+      source: "F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-yvelxw"
+      binary: "F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-yvelxw"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview"
@@ -286,12 +286,12 @@ events:
       variable: "THREADS_HAVE_PTHREAD_ARG"
       cached: true
       stdout: |
-        Change Dir: F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-0mf0k2
+        Change Dir: F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-yvelxw
         
-        Run Build Command(s):D:/Applications/Scoop/apps/anaconda3/current/Library/bin/ninja.exe -v cmTC_b6e92 && [1/2] D:\\Applications\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe   -O0 -g -Xclang -gcodeview -std=c++14 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_b6e92.dir/CheckForPthreads.cxx.obj -MF CMakeFiles\\cmTC_b6e92.dir\\CheckForPthreads.cxx.obj.d -o CMakeFiles/cmTC_b6e92.dir/CheckForPthreads.cxx.obj -c F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-0mf0k2/CheckForPthreads.cxx
-        FAILED: CMakeFiles/cmTC_b6e92.dir/CheckForPthreads.cxx.obj 
-        D:\\Applications\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe   -O0 -g -Xclang -gcodeview -std=c++14 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_b6e92.dir/CheckForPthreads.cxx.obj -MF CMakeFiles\\cmTC_b6e92.dir\\CheckForPthreads.cxx.obj.d -o CMakeFiles/cmTC_b6e92.dir/CheckForPthreads.cxx.obj -c F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-0mf0k2/CheckForPthreads.cxx
-        F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-0mf0k2/CheckForPthreads.cxx:1:10: fatal error: 'pthread.h' file not found
+        Run Build Command(s):D:/Applications/Scoop/apps/anaconda3/current/Library/bin/ninja.exe -v cmTC_27e01 && [1/2] D:\\Applications\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe   -O0 -g -Xclang -gcodeview -std=c++14 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_27e01.dir/CheckForPthreads.cxx.obj -MF CMakeFiles\\cmTC_27e01.dir\\CheckForPthreads.cxx.obj.d -o CMakeFiles/cmTC_27e01.dir/CheckForPthreads.cxx.obj -c F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-yvelxw/CheckForPthreads.cxx
+        FAILED: CMakeFiles/cmTC_27e01.dir/CheckForPthreads.cxx.obj 
+        D:\\Applications\\Scoop\\apps\\llvm\\current\\bin\\clang++.exe   -O0 -g -Xclang -gcodeview -std=c++14 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_27e01.dir/CheckForPthreads.cxx.obj -MF CMakeFiles\\cmTC_27e01.dir\\CheckForPthreads.cxx.obj.d -o CMakeFiles/cmTC_27e01.dir/CheckForPthreads.cxx.obj -c F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-yvelxw/CheckForPthreads.cxx
+        F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-yvelxw/CheckForPthreads.cxx:1:10: fatal error: 'pthread.h' file not found
         #include <pthread.h>
                  ^~~~~~~~~~~
         1 error generated.
@@ -361,8 +361,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-kqmx15"
-      binary: "F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-kqmx15"
+      source: "F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-kp6bky"
+      binary: "F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-kp6bky"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-O0 -g -Xclang -gcodeview"
@@ -374,10 +374,10 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-kqmx15
+        Change Dir: F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-kp6bky
         
-        Run Build Command(s):D:/Applications/Scoop/apps/anaconda3/current/Library/bin/ninja.exe -v cmTC_7522f && [1/2] D:\\Applications\\Scoop\\apps\\llvm\\current\\bin\\clang.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_7522f.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_7522f.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_7522f.dir/CMakeCCompilerABI.c.obj -c D:/Applications/Scoop/apps/mingw-winlibs/12.2.0-16.0.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeCCompilerABI.c
-        [2/2] cmd.exe /C "cd . && D:\\Applications\\Scoop\\apps\\llvm\\current\\bin\\clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_7522f.dir/CMakeCCompilerABI.c.obj -o cmTC_7522f.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_7522f.lib -Xlinker /pdb:cmTC_7522f.pdb -Xlinker /version:0.0     && cmd.exe /C "cd /D F:\\Processing\\000-Work\\010-School\\014-FinalYearProject\\code\\3d_ranging\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kqmx15 && D:\\Applications\\Scoop\\apps\\powershell\\current\\pwsh.exe -noprofile -executionpolicy Bypass -file D:/Applications/Scoop/apps/vcpkg/current/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-kqmx15/cmTC_7522f.exe -installedDir D:/Applications/Scoop/apps/vcpkg/current/installed/x64-windows/debug/bin -OutVariable out""
+        Run Build Command(s):D:/Applications/Scoop/apps/anaconda3/current/Library/bin/ninja.exe -v cmTC_26ff9 && [1/2] D:\\Applications\\Scoop\\apps\\llvm\\current\\bin\\clang.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_26ff9.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_26ff9.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_26ff9.dir/CMakeCCompilerABI.c.obj -c D:/Applications/Scoop/apps/mingw-winlibs/12.2.0-16.0.0-10.0.0-r5/share/cmake-3.26/Modules/CMakeCCompilerABI.c
+        [2/2] cmd.exe /C "cd . && D:\\Applications\\Scoop\\apps\\llvm\\current\\bin\\clang.exe -fuse-ld=lld-link -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console CMakeFiles/cmTC_26ff9.dir/CMakeCCompilerABI.c.obj -o cmTC_26ff9.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_26ff9.lib -Xlinker /pdb:cmTC_26ff9.pdb -Xlinker /version:0.0     && cmd.exe /C "cd /D F:\\Processing\\000-Work\\010-School\\014-FinalYearProject\\code\\3d_ranging\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kp6bky && D:\\Applications\\Scoop\\apps\\powershell\\current\\pwsh.exe -noprofile -executionpolicy Bypass -file D:/Applications/Scoop/apps/vcpkg/current/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary F:/Processing/000-Work/010-School/014-FinalYearProject/code/3d_ranging/build/CMakeFiles/CMakeScratch/TryCompile-kp6bky/cmTC_26ff9.exe -installedDir D:/Applications/Scoop/apps/vcpkg/current/installed/x64-windows/debug/bin -OutVariable out""
         
       exitCode: 0
 ...
